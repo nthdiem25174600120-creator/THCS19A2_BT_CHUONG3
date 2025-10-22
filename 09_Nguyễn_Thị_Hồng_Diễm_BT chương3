@@ -1,0 +1,152 @@
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~
+$ cd 9_Nguyen_Thi_Hong_Diem_bai_tap
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (main)
+$ git push origin
+info: please complete authentication in your browser...
+Everything up-to-date
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_1)
+$ git add text_branch_1.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_1)
+$ git commit -m "Add text_branch_1.txt with Lorem ipsum content"
+[branch_1 5560242] Add text_branch_1.txt with Lorem ipsum content
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 374 bytes | 187.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/nthdiem25174600120-creator/9_Nguyen_Thi_Hong_Diem_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/nthdiem25174600120-creator/9_Nguyen_Thi_Hong_Diem_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_1)
+$ git checkout main
+M       README.md
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_2)
+$ git add text_branch_2.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_2)
+$ git commit -m "Thêm file text_branch_2.txt"
+[branch_2 4a86cdf] Thêm file text_branch_2.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 358 bytes | 179.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/nthdiem25174600120-creator/9_Nguyen_Thi_Hong_Diem_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/nthdiem25174600120-creator/9_Nguyen_Thi_Hong_Diem_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_2)
+$ git checkout main
+M       README.md
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_3)
+$ git add text_branch_3.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_3)
+$ git commit -m "Thêm file text_branch_3.txt"
+[branch_3 65ee1c7] Thêm file text_branch_3.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/nthdiem25174600120-creator/9_Nguyen_Thi_Hong_Diem_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/nthdiem25174600120-creator/9_Nguyen_Thi_Hong_Diem_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_3)
+$ git checkout main
+M       README.md
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_4)
+$ git add text_branch_4.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_4)
+$ git commit -m "Thêm file text_branch_4.txt"
+[branch_4 d1d222e] Thêm file text_branch_4.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 360 bytes | 120.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/nthdiem25174600120-creator/9_Nguyen_Thi_Hong_Diem_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/nthdiem25174600120-creator/9_Nguyen_Thi_Hong_Diem_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+ADMIN@LAPTOP-NJS9F06V MINGW64 ~/9_Nguyen_Thi_Hong_Diem_bai_tap (branch_4)
+$
